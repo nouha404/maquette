@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Gestion demandes</title>
+</head>
+<body>
+    <header>
+        <a href="./gestion_demande.html">Demande suppresion</a>
+        <a href="./un_etudiant.html">Demandes d'un etudiant</a>
+        <a href="./tout_les_etudiants.html">Demande de tous les etudiant</a>
+        <a href="./affecter.html">Affecter classe au prof</a>
+        <a href="./des_demandes.html">Traitement des demandes</a>
+        <a href="../inscription.html">Inscription</a>
+    </header>
+    <h1>Affecter des classes au prof</h1>
+    
+    
+    <div class="container aff">
+        <div class="row">
+            <label for="filiere" id="fil">Matricule</label>
+                <input type="text"/>
+       
+        </div>
+        <div class="row">
+            <label for="filiere" id="fil">Nom && prenom</label>
+            <input type="text" disabled/>
+
+        </div>
+        <div class="row">
+            <label for="">Grade</label>
+            <input type="text" disabled />
+        </div>
+
+        <fieldset>
+            <legend>Liste classe</legend>
+            <div class="row">
+                <label for="filiere" id="fil">Année</label>
+                <input type="text"/>
+            </div>
+
+            <div class="row">
+                <label for="filiere" id="fil">Semestre</label>
+                <select name="" id="">
+                    <option value="">semestre 1</option>
+                    <option value="">semestre 2</option>
+                </select>
+            </div>
+            <div class="row">
+                <label for="">Classe</label>
+                <input type="checkbox"/>
+
+                <label for="">GLRS</label>
+                <input type="checkbox"/>
+
+                <label for="">CDSD</label>
+                <input type="checkbox"/>
+            </div>
+
+        </fieldset>
+
+        <div class="btn">
+            <input type="submit" class="btn-reset" value="Reset">
+            <input type="submit" class="btn-submit" value="Submit">
+        </div>
+
+    </div>
+
+
+</body>
+</html>

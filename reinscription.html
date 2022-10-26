@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Gestion des classes</title>
+</head>
+<body>
+    <header>
+        <a href="main.html">Creer classe</a>
+        <a href="./lister.html">Lister classe</a>
+        <a href="./lister_etudiant.html">Lister des Etudiant</a>
+        <a href="./inscription.html">Inscription</a>
+        <a href="./reinscription.html">Reinscription</a>
+        <a href="./gestion_demandes/gestion_demande.html">Gestion demandes</a>
+    </header>
+    <h1>Reinscription</h1>
+    
+
+    <div class="container">
+        <div class="row">
+            <label for="filiere" id="fil">Matricule</label>
+                <input type="text"/>
+       
+        </div>
+        <div class="row">
+            <label for="filiere" id="fil">Nom && prenom</label>
+            <input type="text" class="desabled" disabled />
+
+        </div>
+        <div class="row">
+            <label for="">Date de naissance</label>
+            <input type="date" class="desabled" disabled>
+        </div>
+
+        <div class="row">
+            <label for="" class="lbel">Année scolaire</label>
+            <input type="date"/>
+        </div>
+
+        <div class="row">
+            <label for="">Classe</label>
+            <select name="fillier">
+                <optgroup label="filiere">
+                    <option value="">CDSD</option>
+                    <option value="">GLRS</option>
+                    <option value="">MOSIF</option>
+                    <option value="">MAE</option>
+                    <option value="">CPD</option>
+                    <option value="">IAGE</option>
+                </optgroup>
+               
+            </select>
+        </div>
+
+        <div class="btn">
+            <input type="submit" class="btn-reset" value="Reset">
+            <input type="submit" class="btn-submit" value="Submit">
+        </div>
+
+    </div>
+
+</body>
+</html>
